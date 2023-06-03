@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav>
+        <h1>DOM</h1>
+    </nav>
+    <hr>
+    <br>
+    
+
+    <div class="container">
+     <h3>Q1: Write the code to access element which is having id as "text" ?</h3>
+     <pre>
+
+       ANS : let first = document.getElementById("text");
+               console.log(first);
+     </pre>
+     <hr>
+     <br>
+
+     <h3>Q2: Write the code to access element which is having tag as "h1" ?</h3>
+     <pre>
+
+        ANS: let second = document.getElementByTagName("h1");
+             console.log(second);
+     </pre>
+
+     <hr>
+     <br>
+
+     <h3>Q3: Write the code to access element which is having class as "box" ?</h3>
+     <pre>
+        ANS : let third = document.getElementByClassName("box");
+              console.log(third);
+     </pre>
+
+     <hr>
+     <br>
+
+     <h3>Q4: Change the heading from "Hello" to "Hello World" using DOM function ? </h3> <br>
+     <h1 class="change" onclick="changeMe()">Hello</h1>
+     
+     <br>
+     <hr>
+     <br>
+
+     <h3>Q5: Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to      "Welcome to Elevation academy" ?</h3> <br>
+     <h1 class="change1">Hello World</h1>
+     <button onclick="change2()">Replace Text</button>
+
+     <hr>
+     <br>
+
+
+     <h3>Q6: Add one style attribute and give text color as red and id attribute and give the id value as "heading" in the above given h1 tag using DOM functions</h3>
+     <br>
+     <h1 class="heading">Style.Red</h1>
+     
+     <br>
+     <hr>
+     <br>
+
+     <h3>Q7: Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction ?</h3>
+     <br>
+     <div class="parent">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <br>
+    <button  onclick="changeDirection()"> change direction</button>
+
+     <br>
+     <hr>
+     <br>
+
+    <h3>Q8: What’s the difference between window vs document?</h3>
+    <div class="card">
+        <div class="card1">
+            <h2>WINDOW</h2>
+            <br>
+            <hr>
+            <br>
+            <p>1. - Lorem ipsum dolor sit.</p>
+        </div>
+        <div class="card2">
+            <h2>BROWSER</h2>
+            <br>
+            <hr>
+            <br>
+            <p>1. - Lorem ipsum dolor sit.</p>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <h3>Q9: Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second ?</h3>
+    <br>
+    <h4>Start Clock</h4> 
+    <h4></h4>
+    
+    <br>
+    <hr>
+    <br>
+
+    <h3>Q10: Guess the Number ?</h3>
+    <h3><a href="./index2.html">GUESSING GAME </a></h3>
+     
+   
+
+
+
+
+
+
+     
+
+
+
+    </div>
+    
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
