@@ -8,51 +8,25 @@
     <link rel="stylesheet" href="./style2.css">
 </head>
 <body>
-    <div class="top">
-        <button class="top1">Play Again</button> 
-        <div class="top2">
-            <h1>(Between 1 to 100)</h1>
-        </div>
-    </div>
-    <br>
-    <br>
 
-    <h1 class="guess">Guess My Number !</h1>
 
-    <br>
-    <br>
-    <br>
-    <br><hr>
 
-    <div class="mid"></div>
-
-    <br>
-
-    <div class="bottom">
-        <div class="bottom1">
-            <div class="bottom11">
-                <input type="number" name="" id="number">
-                <br>
-                <button class="check">CHECK</button>
-            </div>
-        </div>
-        <div class="bottom2">
-            <h1>Start Guessing....</h1>
-            <br>
-            <br>
-            <br>
-            <h3>Chance : 100%</h3>
-            <br>
-            <h3>Highscore: 0</h3>
-        </div>
-    </div>
-
+    <h1>GUESS THE RANDOM NUMBER!!!</h1>
+    <p>(BETWEEN 1 TO 100)</p>
+    <p id="SG" class="guess">Start Guessing..!</p>
+    <img src="./question_mark.png">
+    <p id="chance" class="counts">:100: Chances: 100</p>
+    <p id="score" class="highscore">:first_place_medal: Highscore: 0</p>
+    <button class="again" onclick="playagain()" id="PA">PLAY AGAINN !</button>
+    <input type="number" id="name" placeholder="Enter a number">
+    <button onclick="checkNumber()">CLICK</button>
+   
 
 
     
 
 
 
-<script src="./script.js"></script>    
+<script src="./script2.js"></script>    
 </body>
 </html>

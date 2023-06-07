@@ -1,84 +1,96 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 body{
-    background-color: rgb(82, 22, 22);
+    background-image: linear-gradient(to right,rgb(215, 215, 229),rgb(0, 35, 130));
+    box-sizing: border-box;
 }
+h1{
+    position: absolute;
+    left: 461px;
+    top: 78px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(8, 23, 31);
+    font-style: italic;
+    font-weight: bolder;
 
-.top{
-    display: flex;
-    justify-content: space-between;
 }
-
-.top1 {
-    height: 70px;
-    width: 180px;
-    border: 1px solid black;
-    background-color: white;
-    margin: 40px 0px 0px 40px;
-    cursor: pointer;
+p{
+    position: absolute;
+    right: 294px;
+    top: 56px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color:rgb(12, 4, 8);
+    font-style: italic;
+    font-weight: bolder;
 }
-
-.top2{
-    height: 70px;
-    width: 380px;
-    color: white;
-    
-    margin: 40px 30px 0px 40px;
+#chance{
+    color: whitesmoke;
+    position: absolute;
+    right: 366px;
+    top: 281px;
 }
-
-.guess{
+#score{
+    color:whitesmoke;
+    position: absolute;
+    right: 383px;
+    top: 344px;
+}
+img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 635px;
+    top: 131px;
+}
+#SG{
+    position: absolute;
+    right: 327px;
+    top: 220px;
+    font-size: 30px;
+}
+input{
+    height: 100px;
+    width: 350px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 5px solid aliceblue;
+    background-color: rgb(19, 69, 94);
+    position: relative;
+    left: 51px;
+    top: 302px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+button{
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
     color: white;
     text-align: center;
-    font-size: 50px;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: rgb(19, 69, 94);
+    border: 2px solid aliceblue;
+    position: relative;
+    right: 211px;
+    top: 398px;
+    cursor: pointer;
 }
-
-.mid{
-    height: 150px;
-    width: 150px;
-    background-color: white;
-    border: 1px solid black;
-    position: absolute;
-    top: 210px;
-    left: 45%;
-}
-
-.bottom{
-    display: flex;
-    margin: 90px 0px 0px 190px;
-    
-}
-
-.bottom1{
-    height: 300px;
-    width: 500px;
-    
-    
-
-}
-
-.bottom11 #number{
-    height: 70px;
+#PA{
+    height: 80px;
     width: 180px;
-    margin-left: 80px;
-    border: 2px black groove;
-
-}
-
-.check{
-    height: 70px;
-    width: 180px;
-    margin: 50px 0px 0px 80px;
-}
-
-
-.bottom2{
-    height: 300px;
-    width: 500px;
-    margin-left: 80px;
-    padding-left:150px ;
-    color: white;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 5px solid aliceblue;
+    background-color: rgb(19, 69, 94);
+    position: relative;
+    left: 24px;
+    top: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
 }
